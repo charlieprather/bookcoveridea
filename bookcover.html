@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+    <style>
+body{
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
+    
+ .triangle-up {
+    height: 0;
+    top-padding:50px;
+
+}
+.triangle-up div {
+    padding-top: 50vw;
+
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 150vw solid red;
+    opacity: .8;
+    left:0;
+
+}
+.triangle-up-left {
+    height: 0;
+	position: fixed;
+	right:0;
+
+}
+.triangle-up-left div {
+isolation: isolate;
+    width: 0;
+    height: 0;
+    border-left: 130em solid transparent;
+    border-bottom: 140em solid #19F596;
+    opacity: .7;
+    mix-blend-mode: difference; 
+}
+
+
+
+
+
+
+
+
+
+.isolate { isolation: isolate; }
+
+
+  
+ .triangle-down {
+    height: 0;
+    top-padding:500px;
+
+
+
+}
+.triangle-down div {
+    padding-top: 50vw;
+    margin-top: 200vw;
+
+    width: 0;
+    height: 0;
+    border-right: 100vw solid #F5AC0C;
+    border-top: 150vw solid red;
+    opacity: .7;
+    left:0;
+
+
+
+
+}
+
+
+ .triangle-up2 {
+    height: 10px;
+    top-padding:200px;
+    z-index: -20;
+}
+
+
+.triangle-up2 div {
+  padding-top: 50vw;
+z-index: -20;
+    width: 0;
+    height: 0;
+    border-right: 90vw solid transparent;
+    border-bottom: 150vw solid #F5AC0C;
+    opacity: .3;
+    left:0;
+
+}
+
+
+
+
+
+    </style>
+<div class="isolate triangle-up"><div></div></div>
+
+
+<div class="isolate triangle-up-left"><div></div></div>
+
+<div class="isolate triangle-down"><div></div></div>
+
+<div class="isolate triangle-up2"><div></div></div>
+
+
+</body>
+</html>
+
+
+
